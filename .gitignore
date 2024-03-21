@@ -1,0 +1,19 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+debug
+klepto
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+/dist
+/*.klepto.toml
+coverage.txt
+
+# Vendor stuff
+vendor/
+
+*.coverprofile
